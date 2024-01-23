@@ -86,7 +86,7 @@ NaLLM https://github.com/neo4j/NaLLM
 
 <!-- USAGE EXAMPLES -->
 ## aktueller Stand
-Overleaf : https://www.overleaf.com/read/njkqmvkfqbdw#3b6198
+kommt bald...
 
 
 
