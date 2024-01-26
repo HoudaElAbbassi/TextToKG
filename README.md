@@ -86,8 +86,8 @@ NaLLM https://github.com/neo4j/NaLLM
 
 <!-- USAGE EXAMPLES -->
 ## aktueller Stand
-kommt bald...
 
+[a link](https://github.com/HoudaElAbbassi/TextToKG/blob/main/out/thesis.pdf)
 
 
 <!-- ROADMAP -->
