@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.1.26)  26 JAN 2024 16:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.1.26)  28 JAN 2024 22:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1188,22 +1188,9 @@ Package biblatex Info: Data encoding 'utf8' specified.
 \openout3 = `thesis-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'thesis.bbl' not found.
 
-
-thesis.tex:11: Package biblatex Error: File 'thesis.bbl' not created by biblate
-x.
-
-See the biblatex package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 \begin{document}
-                     ^^M
-This file was apparently not created by biblatex. Rename it or
-move it to a location were TeX will not find it. If this error
-persists, consider redefining \blxauxsuffix.See the biblatex
-manual for details.
-
+No file thesis.bbl.
 Package biblatex Info: Reference section=0 on input line 11.
 Package biblatex Info: Reference segment=0 on input line 11.
 [1
@@ -1274,50 +1261,83 @@ Overfull \hbox (43.3613pt too wide) detected at line 11
 \OT1/cmr/bx/n/12 Chapter 2  
  []
 
+
+Overfull \hbox (43.3613pt too wide) detected at line 17
+\OT1/cmr/bx/n/12 Chapter 3  
+ []
+
+[4
+
+]
+/Users/houda/Documents/TextToKG/out/thesis.toc:20: Misplaced alignment tab char
+acter &.
+<argument> ...line {3.3}Wissensgraphen auswerten &
+                                                   vergleichen}\Hy@toclinkend 
+l.20 ...n auswerten & vergleichen}{3}{section.3.3}
+                                                  %
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
 )
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
- [4
-
-] (/Users/houda/Documents/TextToKG/out/thesis.lot)
+ [5] (/Users/houda/Documents/TextToKG/out/thesis.lot)
 \tf@lot=\write6
 \openout6 = `thesis.lot'.
 
- [5
+ [6
 
 ]
 (/Users/houda/Documents/TextToKG/out/thesis.lof)
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
- [6
+ [7
 
 ]
 Chapter 1.
-Package srcltx Info: Expanded filename `kapitel1' to `kapitel1.tex' on input li
-ne 73.
-:<+ kapitel1.tex
-(kapitel1.tex [1
-
-])
+Package srcltx Info: Expanded filename `Einf^^c3^^bchrung.tex' to `Einf^^c3^^bc
+hrung.tex' on input line 73.
+:<+ Einf^^c3^^bchrung.tex
+(Einf^^c3^^bchrung.tex)
 :<-
-[2]
+[1
+
+]
 Chapter 2.
-Package srcltx Info: Expanded filename `kapitel2' to `kapitel2.tex' on input li
-ne 76.
-:<+ kapitel2.tex
-(kapitel2.tex
-Overfull \hbox (7.81528pt too wide) in paragraph at lines 9--11
-[]\OT1/cmr/m/n/12 Entit^^?aten k^^?onnen re-al-weltliche Ob-jekte, Ereignisse u
-nd ab-strakte Konzepte darstellen,
- []
+Package srcltx Info: Expanded filename `Stand der Technik.tex' to `Stand der Te
+chnik.tex' on input line 76.
+:<+ Stand der Technik.tex
+(Stand der Technik.tex)
+:<-
+[2
+
+]
+Chapter 3.
+Package srcltx Info: Expanded filename `Implementierung.tex' to `Implementierun
+g.tex' on input line 79.
+:<+ Implementierung.tex
+(Implementierung.tex
+Implementierung.tex:5: Misplaced alignment tab character &.
+<argument> Wissensgraphen auswerten &
+                                      vergleichen
+l.5 ...ion{Wissensgraphen auswerten & vergleichen}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (3.14172pt too wide) in paragraph at lines 9--11
-\OT1/cmr/m/n/12 einem Wis-sens-graphen sind La-bels Arten von Beziehun-gen, die
- die Fak-ten verkn^^?upfen
- []
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `alignment tab' on input line 5.
 
 )
 :<-
@@ -1325,76 +1345,44 @@ Overfull \hbox (3.14172pt too wide) in paragraph at lines 9--11
 
 ]
 
-thesis.tex:89: Package biblatex Error: '\bibliographystyle' invalid for 'biblat
+thesis.tex:92: Package biblatex Error: '\bibliographystyle' invalid for 'biblat
 ex'.
 
 See the biblatex package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.89 \bibliographystyle{plain}
+l.92 \bibliographystyle{plain}
                               
 Use the package option 'style' instead.
 I'm ignoring this command.
-
-
-thesis.tex:90: LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.90 \bibliography
-                  {bibliography}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[4]
-thesis.tex:93: Undefined control sequence.
-<argument> \blx@bbl@mdfivesum@new 
-                                  
-l.93 \end{document}
-                   
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
 (/Users/houda/Documents/TextToKG/out/thesis.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: 0154E806FD63736332255128215F6AAA;2053
-(rerunfilecheck)             After:  153EA755566B146CAA03C6D6FAF5AE04;2058.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: F8ABA59778154EB1CD662BFE458C4B1E;3221.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26245 strings out of 474486
- 478330 string characters out of 5735290
- 1931539 words of memory out of 5000000
- 48129 multiletter control sequences out of 15000+600000
+ 26259 strings out of 474486
+ 478658 string characters out of 5735290
+ 1933539 words of memory out of 5000000
+ 48134 multiletter control sequences out of 15000+600000
  565332 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  82i,6n,82p,1905b,854s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Users/houda/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/p
 ublic/amsfonts/cm/cmbx12.pfb></Users/houda/Library/Application Support/MiKTeX/t
 exmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on /Users/houda/Documents/TextToKG/out/thesis.pdf (11 pages, 629
-13 bytes).
+Output written on /Users/houda/Documents/TextToKG/out/thesis.pdf (11 pages, 653
+32 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
- 129 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 174 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
+ 169 words of extra memory for PDF output out of 10000 (max. 10000000)
 
